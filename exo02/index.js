@@ -8,9 +8,9 @@ const a = 4
 const b = 4
 const c = 4
 
-if (a === b && b === c) {
+if (a == b && b == c) {
   console.log("The three variables are the same")
-} else if (a === b || b === c || a === c) {
+} else if (a == b || b == c || a == c) {
   console.log("Two of the variables are the same")
 } else {
   console.log("All variables are different")
